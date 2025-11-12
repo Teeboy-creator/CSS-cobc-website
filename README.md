@@ -24,17 +24,42 @@ CSS-cobc-website/
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - A text editor or IDE (VS Code, Sublime Text, etc.)
 - Basic knowledge of HTML, CSS, and JavaScript
+Make sure you have the following installed:
 
-### Local Development
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/CSS-COBC/CSS-cobc-website.git
-   cd CSS-cobc-website
-   ```
+- **Git** → https://git-scm.com/downloads
+- **Visual Studio Code** → https://code.visualstudio.com/
 
-2. Open the HTML files in your browser:
-   - Navigate to `static/html/index.html`
-   - Open with your preferred browser
+## Cloning This Repository
+
+Follow the steps below to clone the project into your local development environment using **Visual Studio Code**.
+
+### **1. Open the Terminal in VS Code**
+
+Open the built-in terminal by pressing:
+
+or from the top menu:
+
+### **2. Navigate to Your Development Folder**
+
+Use the `cd` command to move to the directory where you want the project located:
+
+bash
+cd (path/to/your/projects)
+-> ignore the brackets*
+
+### **3. Clone the Repository**
+
+Copy the repository URL from the green Code button on GitHub (HTTPS recommended) and run:
+
+git clone https://github.com/CUMIJ-Enterprises/CUMIJ-Official-site.git
+
+### **4. Open the Project in VS Code**
+
+Move into the new project folder and open it:
+
+cd your-repo-name
+code .
+
 
 ### File Organization
 
