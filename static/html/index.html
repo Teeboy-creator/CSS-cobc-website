@@ -3,28 +3,611 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS-COBC Website</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <title>Computer Science Society</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to CSS-COBC</h1>
-        <p>Hi this is the CSS!!!!!</p>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="CSS-Group Logo.jpg" alt="CSS Logo"> <!-- replace with your logo -->
+        </div>
+        <nav>
+            <a href="#">Events</a>
+            <a href="#">Member portfolio</a>
+            <a href="#">Projects</a>
+        </nav>
     </header>
-    
-    <main>
-        <section>
-            <h2>About</h2>
-            <p>This is a sample HTML file to demonstrate the project structure and.</p>
-            <p>Hi its teslim</p>
-            
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2025 CSS-COBC. All rights reserved.</p>
-    </footer>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Computer Science<br>Society</h1>
+            <p>
+                The City of Bristol College Computer Science Society is a student-led club 
+                dedicated to fostering a passion for all things tech. We offer workshops, 
+                guest speakers, and collaborative projects to enhance members' skills in 
+                programming, cybersecurity, and more. It's a great place to network, learn 
+                beyond the classroom, and explore the exciting world of computer science.
+            </p>
+        </div>
+
+        <div class="hero-image">
+            <img src="CSS B Logo.jpg" alt="Colorful B Logo"> <!-- replace with your image -->
+        </div>
+    </section>
+
+
+<!-- MISSION & VISION SECTION -->
+<section class="mission-vision">
+    <div class="mv-left">
+        <img src="Our Vision Logo.jpg" alt="Lightbulb Icon">
+    </div>
+
+    <div class="mv-right">
+        <h2>Our Mission &<br>Vision</h2>
+
+        <p>
+            <strong>Mission:</strong> To equip City of Bristol College students with the practical 
+            skills, industry knowledge, and professional network necessary to excel in the rapidly 
+            evolving field of computer science.
+        </p>
+
+        <p>
+            <strong>Vision:</strong> To be the leading resource for computer science students at 
+            City of Bristol College, bridging the gap between academic learning and real–world 
+   </main>
+</section>
+
+
+
+
+    <!-- SKILL DEVELOPMENT -->
+    <section class="skill-section">
+        <h2>Skill Development:</h2>
+
+        <p>
+            As part of City of Bristol College’s Clubs and Enrichment Programme, the Computer Science
+            Society provides opportunities to extend your learning beyond the classroom.
+        </p>
+
+        <p>Our aim is to inspire a passion for technology through various activities:</p>
+
+        <ul>
+            <li><strong>Networking Opportunities</strong> – Connect with like-minded students and professionals.</li>
+            <li><strong>Guest Speakers</strong> – Learn from industry experts.</li>
+            <li><strong>Supportive Community</strong> – Grow skills and build friendships.</li>
+            <li><strong>Extracurricular Activities</strong> – Competitions, hackathons, and tech events.</li>
+            <li>Something for everyone, whether you're exploring a career or just curious.</li>
+        </ul>
+    </section>
+
+
+    <section class="portfolio-preview">
+    <div class="pp-content">
+        <h2>See What Our Members Are<br>Creating!</h2>
+
+        <p>
+            Our members are constantly building, learning, and experimenting.
+            Check out their portfolios to explore websites, apps, designs,
+            and projects made right here at CoBC’s Computer Science Society.
+        </p>
+    </div>
+
+    <div class="pp-action">
+        <a href="#" class="pp-button">View portfolios</a>
+    </div>
+</section>
+
+
+<!-- FAQ Section Only -->
+<section id="faq-section" style="width:100%; padding:40px; background:#0b0d1a; color:white; text-align:center; font-family:Arial, sans-serif;">
+  <h1 style="font-size:2.5rem; margin-bottom:40px;">FAQs SECTION</h1>
+
+  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:30px; width:90%; margin:auto;">
+    <div style="background:#11162c; padding:25px; border-radius:30px; font-size:1.2rem; line-height:1.5; box-shadow:0 4px 12px rgba(0,0,0,0.4);">
+      Q: How often does the Computer Science Society meet?
+    </div>
+
+    <div style="background:#11162c; padding:25px; border-radius:30px; font-size:1.2rem; line-height:1.5; box-shadow:0 4px 12px rgba(0,0,0,0.4);">
+      Q: Do I need to have prior programming experience to participate in the activities?
+    </div>
+
+    <div style="background:#11162c; padding:25px; border-radius:30px; font-size:1.2rem; line-height:1.5; box-shadow:0 4px 12px rgba(0,0,0,0.4);">
+      Q: What kind of activities does the Computer Science Society offer?
+    </div>
+
+    <div style="background:#11162c; padding:25px; border-radius:30px; font-size:1.2rem; line-height:1.5; box-shadow:0 4px 12px rgba(0,0,0,0.4);">
+      Q: How can I contact the Computer Science Society?
+    </div>
+
+    <div style="background:#11162c; padding:25px; border-radius:30px; font-size:1.2rem; line-height:1.5; box-shadow:0 4px 12px rgba(0,0,0,0.4);">
+      Q: How can the Computer Science Society help me with my career?
+    </div>
+
+    <div style="background:#11162c; padding:25px; border-radius:30px; font-size:1.2rem; line-height:1.5; box-shadow:0 4px 12px rgba(0,0,0,0.4);">
+      Q: What are the benefits of joining the Computer Science Society?
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Footer Section -->
+<section id="footer">
+  <div class="footer-container">
+
+    <div class="footer-left">
+      <img src="footer logos.jpg" alt="CSS Logo" class="footer-logo" />
+      <p class="footer-text">
+        Membership is free! We believe that everyone should have access to opportunities to learn and explore computer science.
+      </p>
+    </div>
+
+    <div class="footer-right">
+      <div class="contact">
+        <h2>Contact us:</h2>
+        <p>email: emailplaceholder.com</p>
+      </div>
+
+      <div class="members">
+        <h2>Our members:</h2>
+        <ul>
+          <li>Bla bla bla</li>
+          <li>Bla bla bla</li>
+          <li>Bla bla bla</li>
+          <li>Bla bla bla</li>
+          <li>Bla bla bla</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="copyright">© 2025 Computer Science Society</p>
+</section>
+
+
+
+
+
+
+<Style> 
+
+
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: #ffffff; /* deep navy like the screenshot */
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: #111; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: relative;
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.navbar nav a {
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 70px;
+    font-family: "Georgia", serif;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero-image img {
+    width: 380px;
+    height: auto;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text {
+        max-width: 100%;
+    }
+    .hero-image img {
+        margin-top: 30px;
+        width: 250px;
+    }
+}
+
+
+
+
+
+
+
+/* MISSION & VISION SECTION */
+.mission-vision {
+    background: #111;
+    padding: 100px 40px;   /* reduced from 60px to prevent overflow */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    overflow-x: hidden;    /* prevents horizontal overflow */
+}
+
+.mv-left img {
+    width: 250px;
+}
+
+.mv-right {
+    max-width: 55%;
+    text-align: center;
+    margin-right: 0;       /* FIX: was 80px causing overflow */
+}
+
+.mv-right h2 {
+    font-size: 60px;
+    font-family: Georgia, serif;
+    margin-bottom: 40px;
+}
+
+.mv-right p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+/* Responsive layout */
+@media (max-width: 900px) {
+    .mission-vision {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mv-right {
+        max-width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .mv-left img {
+        width: 180px;
+    }
+}
+
+/* GLOBAL SAFE FIX */
+html, body {
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+/* GLOBAL FIXES */
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #111;
+}
+
+/* HERO */
+.hero {
+    background: #0d1a36;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+/* MISSION & VISION */
+.mission-vision {
+    background: #111;
+    padding: 80px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    color: white;
+}
+.mv-left img {
+    width: 250px;
+}
+.mv-right {
+    max-width: 500px;
+    text-align: left;
+}
+.mv-right h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* SKILL SECTION */
+.skill-section {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+.skill-section h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-family: Georgia, serif;
+}
+.skill-section ul {
+    margin-top: 20px;
+}
+.skill-section li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .mission-vision {
+        flex-direction: column;
+        text-align: center;
+    }
+    .mv-left img {
+        width: 180px;
+    }
+    .mv-right {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PORTFOLIO PREVIEW SECTION */
+.portfolio-preview {
+    background: #1b1b1b;
+    color: white;
+    padding: 120px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Left text section */
+.pp-content {
+    max-width: 60%;
+}
+
+.pp-content h2 {
+    font-family: Georgia, serif;
+    font-size: 72px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+}
+
+.pp-content p {
+    font-size: 20px;
+    line-height: 1.7;
+    max-width: 550px;
+}
+
+/* Right button section */
+.pp-action {
+    display: flex;
+    align-items: center;
+}
+
+.pp-button {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 20px 40px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.pp-button:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive layout */
+@media (max-width: 900px) {
+    .portfolio-preview {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pp-content {
+        max-width: 100%;
+    }
+
+    .pp-button {
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+/* FAQ Section Styles */
+
+#faq-section {
+  width: 100%;
+  padding: 40px;
+  background: #ffffff;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+#faq-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  width: 90%;
+  margin: auto;
+}
+
+.faq-box {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer Section Styles */
+
+#footer {
+  background: #0b0d1a;
+  color: white;
+  padding: 60px 40px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+.footer-left {
+  flex: 1 1 350px;
+  max-width: 500px;
+}
+
+.footer-logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.footer-right {
+  flex: 1 1 350px;
+  max-width: 500px;
+}
+
+.footer-right h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.contact p,
+.members ul li {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.members ul {
+  padding-left: 20px;
+}
+
+/* Copyright */
+
+#footer .copyright {
+  margin-top: 20px; /* or whatever spacing you want */
+}
+
+
+copyright {
+ font-size: 1rem;
+ text-align: center;
+ margin-top: 40px;
+ opacity: 0.7;
+}
+
+
+
+</Style>
     
     <script src="../js/main.js"></script>
+
+
+
+
 </body>
 </html>
